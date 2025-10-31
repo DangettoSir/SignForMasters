@@ -1,0 +1,306 @@
+2025-10-10 12:39:20.332 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057751
+2025-10-10 12:39:20.332 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing text message from user: 1108777017
+2025-10-10 12:39:20.332 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Message from user 1108777017: /start
+2025-10-10 12:39:20.333 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - User 1108777017 executed /start command
+2025-10-10 12:39:20.333 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Starting registration for user 1108777017: 𝖍𝖆𝖙𝖊 
+2025-10-10 12:39:20.498 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - User 1108777017 registered successfully
+2025-10-10 12:39:22.784 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057752
+2025-10-10 12:39:22.784 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing text message from user: 1108777017
+2025-10-10 12:39:22.784 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Message from user 1108777017: 📅 Записаться на прием
+2025-10-10 12:39:22.784 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - User 1108777017 started booking appointment
+2025-10-10 12:39:22.980 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Sent master list to user 1108777017
+2025-10-10 12:39:23.723 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057753
+2025-10-10 12:39:23.724 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: master_m1 from user: 1108777017
+2025-10-10 12:39:23.724 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: master_m1
+2025-10-10 12:39:23.724 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Handling master selection
+2025-10-10 12:39:23.724 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - User 1108777017 selected master: m1
+2025-10-10 12:39:23.728 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Generated 28 available dates for master m1
+2025-10-10 12:39:25.575 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057754
+2025-10-10 12:39:25.575 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: date_2025-10-12 from user: 1108777017
+2025-10-10 12:39:25.575 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: date_2025-10-12
+2025-10-10 12:39:25.575 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Handling date selection
+2025-10-10 12:39:25.575 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - User 1108777017 selecting date: date_2025-10-12
+2025-10-10 12:39:25.579 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Validating date 2025-10-12 (dow: sunday) for master m1
+2025-10-10 12:39:25.599 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - User 1108777017 has 12 available time slots for 2025-10-12
+2025-10-10 12:39:26.807 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057755
+2025-10-10 12:39:26.808 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: time_11:30 from user: 1108777017
+2025-10-10 12:39:26.808 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: time_11:30
+2025-10-10 12:39:26.808 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Handling time selection
+2025-10-10 12:39:28.083 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057756
+2025-10-10 12:39:28.084 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: confirm_booking from user: 1108777017
+2025-10-10 12:39:28.084 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: confirm_booking
+2025-10-10 12:48:13.916 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057757
+2025-10-10 12:48:13.916 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing text message from user: 1108777017
+2025-10-10 12:48:13.916 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Message from user 1108777017: 📅 Записаться на прием
+2025-10-10 12:48:13.916 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - User 1108777017 started booking appointment
+2025-10-10 12:48:14.133 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Sent master list to user 1108777017
+2025-10-10 12:48:14.933 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057758
+2025-10-10 12:48:14.933 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: master_m1 from user: 1108777017
+2025-10-10 12:48:14.935 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: master_m1
+2025-10-10 12:48:14.935 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Handling master selection
+2025-10-10 12:48:14.935 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - User 1108777017 selected master: m1
+2025-10-10 12:48:14.938 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Generated 28 available dates for master m1
+2025-10-10 12:48:16.049 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057759
+2025-10-10 12:48:16.049 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: date_2025-10-10 from user: 1108777017
+2025-10-10 12:48:16.051 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: date_2025-10-10
+2025-10-10 12:48:16.051 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Handling date selection
+2025-10-10 12:48:16.052 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - User 1108777017 selecting date: date_2025-10-10
+2025-10-10 12:48:16.055 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Validating date 2025-10-10 (dow: friday) for master m1
+2025-10-10 12:48:16.082 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - User 1108777017 has 16 available time slots for 2025-10-10
+2025-10-10 12:48:16.909 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057760
+2025-10-10 12:48:16.909 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: time_10:00 from user: 1108777017
+2025-10-10 12:48:16.911 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: time_10:00
+2025-10-10 12:48:16.911 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Handling time selection
+2025-10-10 12:48:18.142 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057761
+2025-10-10 12:48:18.142 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: confirm_booking from user: 1108777017
+2025-10-10 12:48:18.144 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: confirm_booking
+2025-10-10 12:48:19.098 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057762
+2025-10-10 12:48:19.098 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing text message from user: 1108777017
+2025-10-10 12:48:19.098 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Message from user 1108777017: 📅 Записаться на прием
+2025-10-10 12:48:19.099 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - User 1108777017 started booking appointment
+2025-10-10 12:48:19.183 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Sent master list to user 1108777017
+2025-10-10 12:48:20.190 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057763
+2025-10-10 12:48:20.190 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: master_m1 from user: 1108777017
+2025-10-10 12:48:20.192 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: master_m1
+2025-10-10 12:48:20.192 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Handling master selection
+2025-10-10 12:48:20.192 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - User 1108777017 selected master: m1
+2025-10-10 12:48:20.193 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Generated 28 available dates for master m1
+2025-10-10 12:48:22.495 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057764
+2025-10-10 12:48:22.495 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: date_2025-10-10 from user: 1108777017
+2025-10-10 12:48:22.496 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: date_2025-10-10
+2025-10-10 12:48:22.496 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Handling date selection
+2025-10-10 12:48:22.496 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - User 1108777017 selecting date: date_2025-10-10
+2025-10-10 12:48:22.497 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Validating date 2025-10-10 (dow: friday) for master m1
+2025-10-10 12:48:22.511 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - User 1108777017 has 15 available time slots for 2025-10-10
+2025-10-10 12:48:23.746 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057765
+2025-10-10 12:48:23.746 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: time_10:30 from user: 1108777017
+2025-10-10 12:48:23.748 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: time_10:30
+2025-10-10 12:48:23.748 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Handling time selection
+2025-10-10 12:48:24.547 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057766
+2025-10-10 12:48:24.547 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: confirm_booking from user: 1108777017
+2025-10-10 12:48:24.549 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: confirm_booking
+2025-10-10 12:48:26.939 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057767
+2025-10-10 12:48:26.939 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing text message from user: 1108777017
+2025-10-10 12:48:26.939 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Message from user 1108777017: 📋 Мои записи
+2025-10-10 12:48:28.499 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057768
+2025-10-10 12:48:28.499 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: cancel_appointment_1108777017_m1_2025-10-12_11:30 from user: 1108777017
+2025-10-10 12:48:28.501 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: cancel_appointment_1108777017_m1_2025-10-12_11:30
+2025-10-10 12:48:29.968 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057769
+2025-10-10 12:48:29.969 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: cancel_appointment_1108777017_m1_2025-10-10_10:00 from user: 1108777017
+2025-10-10 12:48:29.970 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: cancel_appointment_1108777017_m1_2025-10-10_10:00
+2025-10-10 12:48:30.882 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057770
+2025-10-10 12:48:30.883 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: cancel_appointment_1108777017_m1_2025-10-10_10:30 from user: 1108777017
+2025-10-10 12:48:30.884 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: cancel_appointment_1108777017_m1_2025-10-10_10:30
+2025-10-10 12:48:31.512 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057771
+2025-10-10 12:48:31.512 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing text message from user: 1108777017
+2025-10-10 12:48:31.512 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Message from user 1108777017: 📅 Записаться на прием
+2025-10-10 12:48:31.512 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - User 1108777017 started booking appointment
+2025-10-10 12:48:31.610 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Sent master list to user 1108777017
+2025-10-10 12:48:32.346 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057772
+2025-10-10 12:48:32.346 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: master_m1 from user: 1108777017
+2025-10-10 12:48:32.348 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: master_m1
+2025-10-10 12:48:32.348 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Handling master selection
+2025-10-10 12:48:32.348 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - User 1108777017 selected master: m1
+2025-10-10 12:48:32.349 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Generated 28 available dates for master m1
+2025-10-10 12:48:33.377 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057773
+2025-10-10 12:48:33.377 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: date_2025-10-10 from user: 1108777017
+2025-10-10 12:48:33.379 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: date_2025-10-10
+2025-10-10 12:48:33.379 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Handling date selection
+2025-10-10 12:48:33.379 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - User 1108777017 selecting date: date_2025-10-10
+2025-10-10 12:48:33.380 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Validating date 2025-10-10 (dow: friday) for master m1
+2025-10-10 12:48:33.392 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - User 1108777017 has 14 available time slots for 2025-10-10
+2025-10-10 12:48:48.031 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057774
+2025-10-10 12:48:48.032 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing text message from user: 1108777017
+2025-10-10 12:48:48.032 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Message from user 1108777017: /admin
+2025-10-10 12:48:48.032 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - User 1108777017 in state: SELECTING_TIME
+2025-10-10 12:48:48.032 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - State SELECTING_TIME not handled in message handler
+2025-10-10 12:48:48.033 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - User 1108777017 executed /admin command
+2025-10-10 12:48:49.351 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057775
+2025-10-10 12:48:49.351 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: admin_masters from user: 1108777017
+2025-10-10 12:48:49.353 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: admin_masters
+2025-10-10 12:48:50.237 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057776
+2025-10-10 12:48:50.237 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: admin_add_master from user: 1108777017
+2025-10-10 12:48:50.238 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: admin_add_master
+2025-10-10 12:48:51.129 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057777
+2025-10-10 12:48:51.129 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: cat_Маникюр from user: 1108777017
+2025-10-10 12:48:51.130 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: cat_Маникюр
+2025-10-10 12:48:56.075 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057778
+2025-10-10 12:48:56.075 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing text message from user: 1108777017
+2025-10-10 12:48:56.075 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Message from user 1108777017: Налимов Лев Олегович
+2025-10-10 12:48:56.076 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - User 1108777017 in state: WAITING_MASTER_NAME
+2025-10-10 12:49:00.555 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057779
+2025-10-10 12:49:00.555 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing text message from user: 1108777017
+2025-10-10 12:49:00.555 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Message from user 1108777017: monday,tuesday,friday
+2025-10-10 12:49:00.555 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - User 1108777017 in state: WAITING_MASTER_SCHEDULE_DAYS
+2025-10-10 12:49:03.948 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057780
+2025-10-10 12:49:03.949 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing text message from user: 1108777017
+2025-10-10 12:49:03.949 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Message from user 1108777017: 10:00-18:00
+2025-10-10 12:49:03.949 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - User 1108777017 in state: WAITING_MASTER_SCHEDULE_TIME
+2025-10-10 12:49:06.495 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057781
+2025-10-10 12:49:06.495 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing text message from user: 1108777017
+2025-10-10 12:49:06.495 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Message from user 1108777017: 30
+2025-10-10 12:49:06.495 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - User 1108777017 in state: WAITING_MASTER_SLOT_DURATION
+2025-10-10 12:49:08.946 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057782
+2025-10-10 12:49:08.947 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: back from user: 1108777017
+2025-10-10 12:49:08.948 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: back
+2025-10-10 12:49:09.889 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057783
+2025-10-10 12:49:09.889 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing text message from user: 1108777017
+2025-10-10 12:49:09.889 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Message from user 1108777017: 📅 Записаться на прием
+2025-10-10 12:49:09.889 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - User 1108777017 started booking appointment
+2025-10-10 12:49:09.976 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Sent master list to user 1108777017
+2025-10-10 12:49:11.878 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057784
+2025-10-10 12:49:11.878 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: master___ from user: 1108777017
+2025-10-10 12:49:11.879 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: master___
+2025-10-10 12:49:11.879 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Handling master selection
+2025-10-10 12:49:11.879 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - User 1108777017 selected master: __
+2025-10-10 12:49:11.881 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Generated 12 available dates for master __
+2025-10-10 12:49:13.086 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057785
+2025-10-10 12:49:13.087 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: date_2025-10-10 from user: 1108777017
+2025-10-10 12:49:13.088 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: date_2025-10-10
+2025-10-10 12:49:13.088 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Handling date selection
+2025-10-10 12:49:13.088 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - User 1108777017 selecting date: date_2025-10-10
+2025-10-10 12:49:13.089 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Validating date 2025-10-10 (dow: friday) for master __
+2025-10-10 12:49:13.103 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - User 1108777017 has 16 available time slots for 2025-10-10
+2025-10-10 12:49:14.722 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057786
+2025-10-10 12:49:14.722 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: time_10:00 from user: 1108777017
+2025-10-10 12:49:14.724 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: time_10:00
+2025-10-10 12:49:14.724 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Handling time selection
+2025-10-10 12:49:15.758 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057787
+2025-10-10 12:49:15.759 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: confirm_booking from user: 1108777017
+2025-10-10 12:49:15.760 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: confirm_booking
+2025-10-10 12:49:17.580 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057788
+2025-10-10 12:49:17.580 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing text message from user: 1108777017
+2025-10-10 12:49:17.580 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Message from user 1108777017: 📅 Записаться на прием
+2025-10-10 12:49:17.580 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - User 1108777017 started booking appointment
+2025-10-10 12:49:17.707 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Sent master list to user 1108777017
+2025-10-10 12:49:18.395 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057789
+2025-10-10 12:49:18.396 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: master___ from user: 1108777017
+2025-10-10 12:49:18.397 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: master___
+2025-10-10 12:49:18.397 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Handling master selection
+2025-10-10 12:49:18.397 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - User 1108777017 selected master: __
+2025-10-10 12:49:18.398 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Generated 12 available dates for master __
+2025-10-10 12:49:19.700 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057790
+2025-10-10 12:49:19.700 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: date_2025-10-10 from user: 1108777017
+2025-10-10 12:49:19.701 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: date_2025-10-10
+2025-10-10 12:49:19.701 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Handling date selection
+2025-10-10 12:49:19.701 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - User 1108777017 selecting date: date_2025-10-10
+2025-10-10 12:49:19.702 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Validating date 2025-10-10 (dow: friday) for master __
+2025-10-10 12:49:19.713 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - User 1108777017 has 15 available time slots for 2025-10-10
+2025-10-10 12:49:22.294 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057791
+2025-10-10 12:49:22.294 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing text message from user: 1108777017
+2025-10-10 12:49:22.294 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Message from user 1108777017: 📋 Мои записи
+2025-10-10 12:49:22.294 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - User 1108777017 in state: SELECTING_TIME
+2025-10-10 12:49:22.294 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - State SELECTING_TIME not handled in message handler
+2025-10-10 12:49:23.268 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057792
+2025-10-10 12:49:23.268 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: back from user: 1108777017
+2025-10-10 12:49:23.269 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: back
+2025-10-10 12:49:40.517 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057793
+2025-10-10 12:49:40.517 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing text message from user: 1108777017
+2025-10-10 12:49:40.517 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Message from user 1108777017: 🔧 Админ панель
+2025-10-10 12:49:41.590 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057794
+2025-10-10 12:49:41.591 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: admin_masters from user: 1108777017
+2025-10-10 12:49:41.592 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: admin_masters
+2025-10-10 12:49:43.760 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057795
+2025-10-10 12:49:43.760 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: admin_delete_master from user: 1108777017
+2025-10-10 12:49:43.761 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: admin_delete_master
+2025-10-10 12:49:46.133 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057796
+2025-10-10 12:49:46.133 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: del_pick___ from user: 1108777017
+2025-10-10 12:49:46.135 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: del_pick___
+2025-10-10 12:49:48.436 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057797
+2025-10-10 12:49:48.436 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: admin_back from user: 1108777017
+2025-10-10 12:49:48.438 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: admin_back
+2025-10-10 13:05:44.503 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057798
+2025-10-10 13:05:44.503 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing text message from user: 1108777017
+2025-10-10 13:05:44.503 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Message from user 1108777017: 📋 Мои записи
+2025-10-10 13:05:45.684 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057799
+2025-10-10 13:05:45.684 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing text message from user: 1108777017
+2025-10-10 13:05:45.684 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Message from user 1108777017: 📋 Мои записи
+2025-10-10 13:05:46.758 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057800
+2025-10-10 13:05:46.758 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing text message from user: 1108777017
+2025-10-10 13:05:46.758 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Message from user 1108777017: 📅 Записаться на прием
+2025-10-10 13:05:46.758 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - User 1108777017 started booking appointment
+2025-10-10 13:05:46.858 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Sent master list to user 1108777017
+2025-10-10 13:05:47.919 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057801
+2025-10-10 13:05:47.919 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: master_m1 from user: 1108777017
+2025-10-10 13:05:47.921 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: master_m1
+2025-10-10 13:05:47.921 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Handling master selection
+2025-10-10 13:05:47.921 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - User 1108777017 selected master: m1
+2025-10-10 13:05:47.925 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Generated 28 available dates for master m1
+2025-10-10 13:05:48.849 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057802
+2025-10-10 13:05:48.849 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: date_2025-10-10 from user: 1108777017
+2025-10-10 13:05:48.851 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: date_2025-10-10
+2025-10-10 13:05:48.851 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Handling date selection
+2025-10-10 13:05:48.851 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - User 1108777017 selecting date: date_2025-10-10
+2025-10-10 13:05:48.852 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Validating date 2025-10-10 (dow: friday) for master m1
+2025-10-10 13:05:48.873 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - User 1108777017 has 14 available time slots for 2025-10-10
+2025-10-10 13:05:49.555 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057803
+2025-10-10 13:05:49.555 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: time_11:00 from user: 1108777017
+2025-10-10 13:05:49.557 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: time_11:00
+2025-10-10 13:05:49.557 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Handling time selection
+2025-10-10 13:05:50.432 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057804
+2025-10-10 13:05:50.433 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: confirm_booking from user: 1108777017
+2025-10-10 13:05:50.434 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: confirm_booking
+2025-10-10 13:05:51.642 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057805
+2025-10-10 13:05:51.642 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing text message from user: 1108777017
+2025-10-10 13:05:51.642 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Message from user 1108777017: 📋 Мои записи
+2025-10-10 13:06:02.216 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057806
+2025-10-10 13:06:02.217 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing text message from user: 1108777017
+2025-10-10 13:06:02.217 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Message from user 1108777017: 📋 Мои записи
+2025-10-10 13:06:02.478 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057807
+2025-10-10 13:06:02.480 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing text message from user: 1108777017
+2025-10-10 13:06:02.480 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Message from user 1108777017: 📋 Мои записи
+2025-10-10 13:06:03.948 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057808
+2025-10-10 13:06:03.948 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing text message from user: 1108777017
+2025-10-10 13:06:03.948 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Message from user 1108777017: 📋 Мои записи
+2025-10-10 13:06:06.281 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057809
+2025-10-10 13:06:06.281 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: back from user: 1108777017
+2025-10-10 13:06:06.285 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: back
+2025-10-10 13:06:08.768 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057810
+2025-10-10 13:06:08.769 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing text message from user: 1108777017
+2025-10-10 13:06:08.769 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Message from user 1108777017: 📅 Записаться на прием
+2025-10-10 13:06:08.769 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - User 1108777017 started booking appointment
+2025-10-10 13:06:08.869 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Sent master list to user 1108777017
+2025-10-10 13:06:10.046 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057811
+2025-10-10 13:06:10.046 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: master_m1 from user: 1108777017
+2025-10-10 13:06:10.047 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: master_m1
+2025-10-10 13:06:10.048 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Handling master selection
+2025-10-10 13:06:10.048 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - User 1108777017 selected master: m1
+2025-10-10 13:06:10.050 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Generated 28 available dates for master m1
+2025-10-10 13:06:11.614 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057812
+2025-10-10 13:06:11.614 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: date_2025-10-10 from user: 1108777017
+2025-10-10 13:06:11.616 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: date_2025-10-10
+2025-10-10 13:06:11.616 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Handling date selection
+2025-10-10 13:06:11.616 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - User 1108777017 selecting date: date_2025-10-10
+2025-10-10 13:06:11.617 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Validating date 2025-10-10 (dow: friday) for master m1
+2025-10-10 13:06:11.635 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - User 1108777017 has 13 available time slots for 2025-10-10
+2025-10-10 13:06:43.746 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057813
+2025-10-10 13:06:43.746 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: time_11:30 from user: 1108777017
+2025-10-10 13:06:43.747 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: time_11:30
+2025-10-10 13:06:43.748 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Handling time selection
+2025-10-10 13:06:44.897 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057814
+2025-10-10 13:06:44.898 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: confirm_booking from user: 1108777017
+2025-10-10 13:06:44.899 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: confirm_booking
+2025-10-10 13:06:45.967 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057815
+2025-10-10 13:06:45.967 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing text message from user: 1108777017
+2025-10-10 13:06:45.967 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Message from user 1108777017: 📋 Мои записи
+2025-10-10 13:06:46.993 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057816
+2025-10-10 13:06:46.993 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: cancel_appointment_1108777017_m1_2025-10-10_11:00 from user: 1108777017
+2025-10-10 13:06:46.994 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: cancel_appointment_1108777017_m1_2025-10-10_11:00
+2025-10-10 13:06:48.066 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057817
+2025-10-10 13:06:48.066 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing text message from user: 1108777017
+2025-10-10 13:06:48.066 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Message from user 1108777017: 📅 Записаться на прием
+2025-10-10 13:06:48.067 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - User 1108777017 started booking appointment
+2025-10-10 13:06:48.154 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Sent master list to user 1108777017
+2025-10-10 13:06:50.411 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057818
+2025-10-10 13:06:50.411 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: master_m1 from user: 1108777017
+2025-10-10 13:06:50.413 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: master_m1
+2025-10-10 13:06:50.413 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Handling master selection
+2025-10-10 13:06:50.413 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - User 1108777017 selected master: m1
+2025-10-10 13:06:50.414 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Generated 28 available dates for master m1
+2025-10-10 13:06:51.413 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Received update: 411057819
+2025-10-10 13:06:51.414 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Processing callback query: date_2025-10-10 from user: 1108777017
+2025-10-10 13:06:51.415 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - Callback from user 1108777017: date_2025-10-10
+2025-10-10 13:06:51.415 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Handling date selection
+2025-10-10 13:06:51.415 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - User 1108777017 selecting date: date_2025-10-10
+2025-10-10 13:06:51.416 [SignForMasters_bot Telegram Executor] DEBUG r.c.t.controller.NailsBotController - Validating date 2025-10-10 (dow: friday) for master m1
+2025-10-10 13:06:51.429 [SignForMasters_bot Telegram Executor] INFO  r.c.t.controller.NailsBotController - User 1108777017 has 12 available time slots for 2025-10-10
