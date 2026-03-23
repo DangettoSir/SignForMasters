@@ -23,7 +23,7 @@ class ReminderService(
     /**
      * Планировщик: проверяет напоминания каждые 30 минут.
      */
-    @Scheduled(fixedRate = 1800000) // 30 минут
+    @Scheduled(fixedRate = 1800000)
     fun checkReminders() {
         try {
             log.debug("Checking reminders...")
@@ -47,7 +47,6 @@ class ReminderService(
         val timeUntilAppointment = java.time.Duration.between(now, appointmentDateTime)
         
         if (timeUntilAppointment.isNegative) {
-            // Сеанс уже прошел - отменяем его
             handleMissedAppointment(appointment)
             return
         }
@@ -57,15 +56,12 @@ class ReminderService(
         
         when {
             daysUntil == 1L && hoursUntil in 20..24 -> {
-                // За 1 день (20-24 часа)
                 sendReminder(appointment, "1 день", "завтра")
             }
             hoursUntil == 5L -> {
-                // За 5 часов
                 sendReminder(appointment, "5 часов", "через 5 часов")
             }
             hoursUntil == 1L -> {
-                // За 1 час
                 sendReminder(appointment, "1 час", "через 1 час")
             }
         }
@@ -92,11 +88,10 @@ class ReminderService(
                 Не забудьте прийти на сеанс!
             """.trimIndent()
             
-            // Здесь нужно отправить сообщение пользователю
-            // Пока что логируем
+
             log.info("Reminder for user {}: {}", appointment.userId, message)
             
-            // Уведомляем мастера о предстоящем сеансе
+
             master?.telegramId?.let { masterTelegramId ->
                 masterNotificationService.sendUpcomingAppointmentNotification(
                     masterTelegramId, 
@@ -117,10 +112,10 @@ class ReminderService(
         try {
             log.info("Appointment {} was missed, cancelling", appointment.id)
             
-            // Отменяем запись
+
             appointmentService.cancelAppointment(appointment.id)
             
-            // Уведомляем мастера о пропущенном сеансе
+
             val master = masterService.getMasterById(appointment.masterId)
             master?.telegramId?.let { masterTelegramId ->
                 masterNotificationService.sendMissedAppointmentNotification(masterTelegramId, appointment)
