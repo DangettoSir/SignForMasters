@@ -128,7 +128,7 @@ object KeyboardFactory {
         val keyboard = InlineKeyboardMarkup()
         val buttons = mutableListOf<List<InlineKeyboardButton>>()
         
-        // Показываем только 7 дней текущей недели
+        
         val startIdx = weekOffset * 7
         val endIdx = (startIdx + 7).coerceAtMost(dates.size)
         val weekDates = dates.subList(startIdx, endIdx)
@@ -146,7 +146,7 @@ object KeyboardFactory {
                 .build()))
         }
         
-        // Навигация по неделям
+        
         val navRow = mutableListOf<InlineKeyboardButton>()
         if (weekOffset > 0) {
             navRow.add(InlineKeyboardButton.builder()
@@ -168,7 +168,7 @@ object KeyboardFactory {
             buttons.add(navRow)
         }
         
-        // Кнопка Назад
+        
         buttons.add(listOf(
             InlineKeyboardButton.builder()
                 .text("⬅️ Назад")
@@ -184,11 +184,10 @@ object KeyboardFactory {
         val keyboard = InlineKeyboardMarkup()
         val buttons = mutableListOf<List<InlineKeyboardButton>>()
         
-        // Фильтруем только доступные слоты
+        
         val availableSlots = timeSlots.filter { it.isAvailable }
         
         if (availableSlots.isEmpty()) {
-            // Если нет доступных слотов, показываем сообщение
             val row = listOf(
                 InlineKeyboardButton.builder()
                     .text("❌ Нет доступных слотов")
@@ -197,7 +196,6 @@ object KeyboardFactory {
             )
             buttons.add(row)
         } else {
-            // Показываем только доступные слоты
             availableSlots.chunked(3).forEach { chunk ->
                 val row = chunk.map { slot ->
                     val timeText = slot.time.format(DateTimeFormatter.ofPattern("HH:mm"))
@@ -211,7 +209,6 @@ object KeyboardFactory {
             }
         }
         
-        // Добавляем кнопку Назад
         buttons.add(listOf(
             InlineKeyboardButton.builder()
                 .text("⬅️ Назад")
